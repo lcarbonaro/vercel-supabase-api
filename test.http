@@ -1,0 +1,31 @@
+### vercel dev to start localhost
+### vercel --prod to deploy
+
+### fetch all
+GET http://localhost:3000/api/members
+
+###
+
+### fetch one by id
+GET http://localhost:3000/api/members/1
+
+###
+
+### create
+POST http://localhost:3000/api/members
+content-type: application/json
+
+{"firstName": "Joe","lastName": "Bloggs"}
+
+###
+
+### update by id
+PUT http://localhost:3000/api/members/1
+content-type: application/json
+
+{"lastName": "Banjo"}
+
+###
+
+### delete by id
+DELETE http://localhost:3000/api/members/5
